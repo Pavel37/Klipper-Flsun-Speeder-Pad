@@ -1117,15 +1117,15 @@ This calibrations can be done by Mainsail Interface with Macros or on Speeder Pa
   
   - It's necessary to save the configuration by clicking on the `SAVE` macro.
 
-- Calibrate ENDSTOPS with `ENDSTOPS_CALIBRATION` macro and save the configuration by clicking on the `SAVE` macro.
+- Calibrate ENDSTOPS with `ENDSTOPS_CALIBRATION`  macro and save the configuration by clicking on the `SAVE` macro.
 
-- Start DELTA CALIBRATION with `DELTA_CALIBRATION` macro and save the configuration by clicking on the `SAVE` macro.
+- Start DELTA CALIBRATION with `DELTA_CALIBRATION` (:warning: The leveling sensor must be connected for this operation !) macro and save the configuration by clicking on the `SAVE` macro.
 
-- Start BED LEVELING with `BED_LEVELING` macro and save the configuration by clicking on the `SAVE` macro.
+- Start BED LEVELING with `BED_LEVELING` (:warning: The leveling sensor must be connected for this operation !) macro and save the configuration by clicking on the `SAVE` macro.
 
-- Start BED PID with `PID_BED_65` macro and save the configuration by clicking on the `SAVE` macro.
+- Start BED PID with `PID_BED_65` macro
 
-- Start HOTEND PID with `PID_HOTEND_220` macro and save the configuration by clicking on the `SAVE` macro.
+- Start HOTEND PID with `PID_HOTEND_220` macro (:warning: The leveling sensor must be **DIS**connected for this operation !)
 
 - After all the calibrations done, I recommend to apply a Safety Offset of 2 mm via the `SECURITY_OFFSET` macro.
 
